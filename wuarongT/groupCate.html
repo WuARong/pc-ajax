@@ -1,0 +1,1175 @@
+<!Doctype html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link  rel="stylesheet" href='./css/bootstrap.min.css'>
+    <link rel="stylesheet" type="text/css" href="./css/groupCate.css">
+    <link rel="stylesheet" type="text/css" href="./css/base.css">
+    <script type="text/javascript" src='./js/jquery-1.9.1.min.js'></script>
+    <script type="text/javascript" src='./js/bootstrap.min.js'></script>
+    <style type='text/css' rel="stylesheet">
+    </style>
+  </head>
+  <body class='wp1200'>
+    <div class='wrapper'>
+      <div class='container'>
+        <ul class='collect lh'>
+          <li class='fore1'>
+            <a href=''>收藏鱼鱼</a>
+          </li>
+        </ul>
+        <ul class='shortcut-right lh'>
+          <li class='fore1' id='loginbar'>
+            <a href='javascript:login();' class='login'>你好，请登录</a>&nbsp;&nbsp;
+            <a href='javascript:signup();' class='regist'>免费注册</a>
+          </li>
+          <li class='fore2 ld'>
+            <span></span>
+            <a href="">我的订单</a>
+          </li>
+          <li class='fore2-1 ld ff-vip'stle='padding-left:12px;'>
+            <span></span>
+            <a href=''>鱼鱼会员</a>
+          </li>
+          <li class='fore3 ld app-ff menu'>
+            <span></span>
+            <a href=''>手机商城</a>
+          </li>
+          <li class='fore4 ld menu' id='custom-server'>
+            <span></span>
+            客户服务
+            <!-- <b></b> -->
+            <!-- <div class='custom-list'>
+              <div>
+                <a href='' target='_blank'>帮助中心</a>
+              </div>
+              <div>
+                <a href='' target='_blank'>售后服务</a>
+              </div>
+              <div>
+                <a href='' target='_blank'>在线客服</a>
+              </div>
+              <div>
+                <a href='' target='_blank'>意见反馈</a>
+              </div>
+            </div> -->
+          </li>
+          <li class='fore5 ld menu' id='site-nav'>
+            <span></span>
+              网站导航
+            <!-- <b></b> -->
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class='top-head'>
+      <div class='container' id='HeardTop'>
+        <div class='ld' id='logo-img'>
+        </div>
+        <div class='seach-box'>
+          <div class='i-search ld'>
+            <ul class="hide-box" style="display: none">
+              <li>
+                <div class="search-item">手机<strong>壳</strong></div>
+                <div class="search-count">约1234510034个商品</div>
+              </li>
+              <li>
+                <div class="search-item">手机<strong>支架</strong></div>
+                <div class="search-count">约1234510034个商品</div>
+              </li>
+              <li>
+                <div class="search-item">手机<strong>包</strong></div>
+                <div class="search-count">约1234510034个商品</div>
+              </li>
+              <li>
+                <div class="search-item">手机<strong>号</strong></div>
+                <div class="search-count">约1234510034个商品</div>
+              </li>
+              <li class="last-li">
+                关闭
+              </li>
+            </ul>
+            <div class='form'>
+              <input type='text' id='key' class='text' autocomplete="off" style='color:rgb(153,153,153);'>
+              <input type='button' value='搜索' class='button'>
+            </div>
+          </div>
+          <div id='Hotwords'>
+            <strong>热门搜索：</strong>
+            <a href='' target='_blank' style='color:#ff0303;'>企业采购</a>
+            <a href='' target='_blank' >移动硬盘</a>
+            <a href='' target='_blank' >冰爽家电</a>
+            <a href='' target='_blank' >六一好礼</a>
+            <a href='' target='_blank' >六一好礼</a>
+            <a href='' target='_blank' >200减100</a>
+            <a href='' target='_blank' >全场免息</a>
+            <a href='' target='_blank' >六一好礼</a>
+          </div>
+        </div>
+        <div class='head-user-menu'>
+          <dl class>
+            <dt class='ld'>
+              <s></s>
+              <a href=''>我的商城</a>
+              <b></b>
+            </dt>
+            <dd>
+              <div class='prompt'>
+                <a href='' class='arrow'>我的用户中心</a>
+                <i></i>
+              </div>
+              <div class='user-centent-menu'>
+                <ul>
+                  <li><a href=''>站内消息(<span>0</span>)</a></li>
+                  <li><a href=''>我的订单</a><i></i></li>
+                  <li><a href=''>咨询回复(<span>0</span>)</a></li>
+                  <li><a href=''>我的收藏</a><i></i></li>
+                  <li><a href=''>代金券(<span>0</span>)</a></li>
+                  <li><a href=''>我的积分</a><i></i></li>
+                </ul>
+              </div>
+              <div class='browse-history'>
+                <div class='part-title'>
+                  <h4>最近浏览的商品</h4>
+                  <span style='float:right'>
+                    <a href=''>全部浏览历史</a>
+                  </span>
+                </div>
+                <div class='smc'>
+                  <ul class='lh'>
+                    <li>
+                      <a href='' target='_blank'><img src='./img/small.png' width='50' height='50'></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </dd>
+          </dl>
+        </div>
+        <div class='settleup'>
+          <dl class>
+            <!-- 如果没有商品这里显示0 -->
+            <div class='addcart-goods-num'>1</div>
+            <!--  -->
+            <dt class='ld first-dt'>
+              <s></s>
+              <a href=''>我的购物车</a>
+              <b></b>
+            </dt>
+            <dd>
+              <div class='sub-title'>
+                <h4>最新加入的商品</h4>
+              </div>
+              <div class='incart-goods-box ps-container'>
+                <div class='incart-goods'>
+                  <!-- 如果没有商品的话显示这个 -->
+                  <div class='no-order'>
+                    <span>您的购物车中暂无商品，赶快选择心爱的商品吧</span>
+                  </div>
+                  <!--  -->
+                  <dl>
+                    <dt class='shop-googs-name'>
+                      <a href=''>聚 劲霸男士毛衣 秋装男针织衫 商务修身V领套头羊毛衫 黑色 165</a>
+                    </dt>
+                    <dd class='mcart-mj'>
+                      <a href='' title='聚 劲霸男士毛衣 秋装男针织衫 商务修身V领套头羊毛衫 黑色 165'>
+                        <img src='./img/cart.jpg'></a>
+                    </dd>
+                    <dd class='mcart-price'>
+                      <em>¥799.00×1</em>
+                    </dd>
+                    <dd class='handle'>
+                      <em><a href='javascript:void(0);'>删除</a></em>
+                    </dd>
+                  </dl>
+                </div>
+              </div>
+              <div class='checkout'>
+                <span class='checkout-price'>
+                  共<i>1</i>种商品&nbsp;&nbsp;总计金额：
+                  <em>¥799.00</em>
+                </span>
+                <a href='' class='btn btn-danger' style='color:#fff;padding:4px 9px;margin-top:10px;'>结算购物车中的商品</a>
+              </div>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class='container'>
+        <div class='nav'>
+          <div id='CateGorys'>
+            <div class='total-shop ld'>
+              <h2>
+                <a href=''>全部商品分类</a>
+                <b></b>
+              </h2>
+            </div>
+            <div class='yy-sortall'>
+              <div class='list-cashcade forel'>
+                <span>
+                  <h3>
+                    <a href=''>图书</a>
+                    、
+                    <a href=''>音响</a>
+                    、
+                    <a href=''>数字产品</a>
+                  </h3>
+                  <s></s>
+                </span>
+                <div class='i-mc' style='top:4px;'>
+                  <div class='subitem'>
+                    <dl class='fore1'>
+                      <dt><a href=''>电子书</a></dt>
+                      <dd>
+                        <em><a href=''>免费</a></em>
+                        <em><a href=''>小说</a></em>
+                        <em><a href=''>励志</a></em>
+                        <em><a href=''>文学</a></em>
+                        <em><a href=''>经营</a></em>
+                        <em><a href=''>经管</a></em>
+                        <em><a href=''>免费</a></em>
+                        <em><a href=''>小说</a></em>
+                        <em><a href=''>励志</a></em>
+                        <em><a href=''>文学</a></em>
+                        <em><a href=''>经营</a></em>
+                        <em><a href=''>经管</a></em>
+                        <em><a href=''>经营</a></em>
+                        <em><a href=''>经管</a></em>
+                        <em><a href=''>免费</a></em>
+                        <em><a href=''>小说</a></em>
+                        <em><a href=''>励志</a></em>
+                        <em><a href=''>文学</a></em>
+                        <em><a href=''>经营</a></em>
+                        <em><a href=''>经管</a></em>
+                      </dd>
+                    </dl>
+                    <dl class='fore1'>
+                      <dt><a href=''>电子书</a></dt>
+                      <dd>
+                        <em><a href=''>免费</a></em>
+                        <em><a href=''>小说</a></em>
+                        <em><a href=''>励志</a></em>
+                        <em><a href=''>文学</a></em>
+                        <em><a href=''>经营</a></em>
+                        <em><a href=''>经管</a></em>
+                        <em><a href=''>免费</a></em>
+                        <em><a href=''>小说</a></em>
+                        <em><a href=''>励志</a></em>
+                        <em><a href=''>文学</a></em>
+                        <em><a href=''>经营</a></em>
+                        <em><a href=''>经管</a></em>
+                        <em><a href=''>经营</a></em>
+                        <em><a href=''>经管</a></em>
+                        <em><a href=''>免费</a></em>
+                        <em><a href=''>小说</a></em>
+                        <em><a href=''>励志</a></em>
+                        <em><a href=''>文学</a></em>
+                        <em><a href=''>经营</a></em>
+                        <em><a href=''>经管</a></em>
+                      </dd>
+                    </dl>
+                    <dl class='fore1'>
+                      <dt><a href=''>电子书</a></dt>
+                      <dd>
+                        <em><a href=''>免费</a></em>
+                        <em><a href=''>小说</a></em>
+                        <em><a href=''>励志</a></em>
+                        <em><a href=''>文学</a></em>
+                        <em><a href=''>经营</a></em>
+                        <em><a href=''>经管</a></em>
+                        <em><a href=''>免费</a></em>
+                        <em><a href=''>小说</a></em>
+                        <em><a href=''>励志</a></em>
+                        <em><a href=''>文学</a></em>
+                        <em><a href=''>经营</a></em>
+                        <em><a href=''>经管</a></em>
+                        <em><a href=''>经营</a></em>
+                        <em><a href=''>经管</a></em>
+                        <em><a href=''>免费</a></em>
+                        <em><a href=''>小说</a></em>
+                        <em><a href=''>励志</a></em>
+                        <em><a href=''>文学</a></em>
+                        <em><a href=''>经营</a></em>
+                        <em><a href=''>经管</a></em>
+                      </dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div class='list-cashcade forel'>
+                <span>
+                  <h3>
+                    <a href=''>图书</a>
+                    、
+                    <a href=''>音响</a>
+                    、
+                    <a href=''>数字产品</a>
+                  </h3>
+                  <s></s>
+                </span>
+                <div class='i-mc' style='top:4px;'>
+                  <div class='subitem'>
+                    <dl class='fore1'>
+                      <dt><a href=''>平大家电</a></dt>
+                      <dd>
+                        <em><a href=''>平板电视</a></em>
+                        <em><a href=''>空调</a></em>
+                        <em><a href=''>洗衣机</a></em>
+                        <em><a href=''>冰箱</a></em>
+                        <em><a href=''>微波炉</a></em>
+                        <em><a href=''>经管</a></em>
+                        <em><a href=''>免费</a></em>
+                        <em><a href=''>小说</a></em>
+                        <em><a href=''>励志</a></em>
+                        <em><a href=''>文学</a></em>
+                        <em><a href=''>经营</a></em>
+                        <em><a href=''>经管</a></em>
+                        <em><a href=''>经营</a></em>
+                        <em><a href=''>经管</a></em>
+                        <em><a href=''>免费</a></em>
+                        <em><a href=''>小说</a></em>
+                        <em><a href=''>励志</a></em>
+                        <em><a href=''>文学</a></em>
+                        <em><a href=''>经营</a></em>
+                        <em><a href=''>经管</a></em>
+                      </dd>
+                    </dl>
+                    <dl class='fore1'>
+                      <dt><a href=''>电子书</a></dt>
+                      <dd>
+                        <em><a href=''>免费</a></em>
+                        <em><a href=''>小说</a></em>
+                        <em><a href=''>励志</a></em>
+                        <em><a href=''>文学</a></em>
+                        <em><a href=''>经营</a></em>
+                        <em><a href=''>经管</a></em>
+                        <em><a href=''>免费</a></em>
+                        <em><a href=''>小说</a></em>
+                        <em><a href=''>励志</a></em>
+                        <em><a href=''>文学</a></em>
+                        <em><a href=''>经营</a></em>
+                        <em><a href=''>经管</a></em>
+                        <em><a href=''>经营</a></em>
+                        <em><a href=''>经管</a></em>
+                        <em><a href=''>免费</a></em>
+                        <em><a href=''>小说</a></em>
+                        <em><a href=''>励志</a></em>
+                        <em><a href=''>文学</a></em>
+                        <em><a href=''>经营</a></em>
+                        <em><a href=''>经管</a></em>
+                      </dd>
+                    </dl>
+                    <dl class='fore1'>
+                      <dt><a href=''>电子书</a></dt>
+                      <dd>
+                        <em><a href=''>免费</a></em>
+                        <em><a href=''>小说</a></em>
+                        <em><a href=''>励志</a></em>
+                        <em><a href=''>文学</a></em>
+                        <em><a href=''>经营</a></em>
+                        <em><a href=''>经管</a></em>
+                        <em><a href=''>免费</a></em>
+                        <em><a href=''>小说</a></em>
+                        <em><a href=''>励志</a></em>
+                        <em><a href=''>文学</a></em>
+                        <em><a href=''>经营</a></em>
+                        <em><a href=''>经管</a></em>
+                        <em><a href=''>经营</a></em>
+                        <em><a href=''>经管</a></em>
+                        <em><a href=''>免费</a></em>
+                        <em><a href=''>小说</a></em>
+                        <em><a href=''>励志</a></em>
+                        <em><a href=''>文学</a></em>
+                        <em><a href=''>经营</a></em>
+                        <em><a href=''>经管</a></em>
+                      </dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ul class='navitems'>
+            <li class='fore1'>
+              <a href=''>首页</a>
+            </li>
+            <li class='fore1'>
+              <a href=''>服装城</a>
+            </li>
+            <li class='fore1'>
+              <a href=''>美食</a>
+            </li>
+            <li class='fore1'>
+              <a href=''>团购</a>
+            </li>
+            <li class='fore1'>
+              <a href=''>夺宝岛</a>
+            </li>
+            <li class='fore1'>
+              <a href=''>闪宝岛</a>
+            </li>
+          </ul>
+          <!-- S 团购 -->
+          <div class="group-cate-flxed">
+            <h2 class="group-cate-title">团购商品分类</h2>
+            <div class="group-itemnav">
+              <div class="dd">
+                <p class="item">
+                 <a class="item-a item-a-cur" href="javascript:;">首页</a>
+                </p>
+                <p class="item">
+                 <a class="item-a" href="javascript:;">团购</a>
+                </p>
+                <p class="item">
+                 <a class="item-a" href="javascript:;">夺宝岛</a>
+                </p>
+              </div>
+              <div class="div-h3">
+                <h3 class="itemnav-h3">
+                  <a class="item-a" href="javascript:;">女装配饰</a>
+                </h3>
+                <h3 class="itemnav-h3">
+                  <a class="item-a" href="javascript:;">男装配饰</a>
+                </h3>
+                <h3 class="itemnav-h3">
+                  <a class="item-a" href="javascript:;">家居家装</a>
+                </h3>
+                <h3 class="itemnav-h3">
+                  <a class="item-a" href="javascript:;">家电数码</a>
+                </h3>
+                <h3 class="itemnav-h3">
+                  <a class="item-a" href="javascript:;">运动户外</a>
+                </h3>
+                <h3 class="itemnav-h3">
+                  <a class="item-a" href="javascript:;">鞋包皮具</a>
+                </h3>
+                <h3 class="itemnav-h3">
+                  <a class="item-a" href="javascript:;">个化护妆</a>
+                </h3>
+                <h3 class="itemnav-h3">
+                  <a class="item-a" href="javascript:;">母婴玩具</a>
+                </h3>
+                <h3 class="itemnav-h3">
+                  <a class="item-a" href="javascript:;">运动户外</a>
+                </h3>
+                <h3 class="itemnav-h3">
+                  <a class="item-a" href="javascript:;">食品保健</a>
+                </h3>
+                <h3 class="itemnav-h3">
+                  <a class="item-a" href="javascript:;">图书影像</a>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- E 团购 -->
+        </div>
+
+      </div>
+    </div>
+
+    
+    <!-- S 主体 -->
+    <div class="container">
+      <!-- S 轮播 -->
+      <div id="carousel-example-generic" class="carousel slide banner-box" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators ol-bom">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="img/qcyp0523sj01.jpg" alt="">
+          </div>
+          <div class="item">
+            <img src="img/max.jpg" alt="">
+          </div>
+          <div class="item">
+            <img src="img/shoujiao.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- E 轮播 -->
+
+      <!-- S 商品团购 -->
+      <h2 class="group-purchase-tit">商品团购</h2>
+      <div class="group-purchase">
+      <!--   <div class="list-item">
+        <div class="item-img">
+          <a href="javascript:;">
+            <img src="img/group1.jpg" alt="">
+          </a>
+        </div>
+        <div class="item-info">
+          <p><em>商城自营</em>苏泊尔电饭煲CFXB40HZ10-160</p>
+        </div>
+        <div class="item-purch item-purch-over">
+          <div class="item-purch-l">
+            <p class="cur-price">
+              <span class="yuan">¥</span>
+              <span class="item-purch-price">19</span>
+              <del>¥2999</del>
+            </p>
+          </div>
+          <div class="item-purch-r item-purch-over">
+            <div>
+              <i>135</i><br>
+              <span>人已买</span>
+            </div>
+            <div class="purch-over">已结束</div>
+          </div>
+        </div>
+      </div>
+      <div class="list-item">
+        <div class="item-img">
+          <a href="javascript:;">
+            <img src="img/group2.jpg" alt="">
+          </a>
+        </div>
+        <div class="item-info">
+          <p>俏夫人沙发 小户型布艺沙发 客厅家具</p>
+        </div>
+        <div class="item-purch">
+          <div class="item-purch-l">
+            <p class="cur-price">
+              <span class="yuan">¥</span>
+              <span class="item-purch-price">199</span>
+              <del>¥888</del>
+            </p>
+          </div>
+          <div class="item-purch-r">
+            <div>
+              <i>135</i><br>
+              <span>人已买</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="list-item">
+        <div class="item-img">
+          <a href="javascript:;">
+            <img src="img/group4.jpg" alt="">
+          </a>
+        </div>
+        <div class="item-info">
+          <p>魅蓝3 移动/联通/电信 全网通 5.0英寸屏 </p>
+        </div>
+        <div class="item-purch">
+          <div class="item-purch-l">
+            <p class="cur-price">
+              <span class="yuan">¥</span>
+              <span class="item-purch-price">221</span>
+              <del>¥666</del>
+            </p>
+          </div>
+          <div class="item-purch-r">
+            <div>
+              <i>135</i><br>
+              <span>人已买</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="list-item">
+        <div class="item-img">
+          <a href="javascript:;">
+            <img src="img/group3.jpg" alt="">
+          </a>
+        </div>
+        <div class="item-info">
+          <p><em>商城自营</em>苏泊尔电饭煲CFXB40HZ10-160</p>
+        </div>
+        <div class="item-purch">
+          <div class="item-purch-l">
+            <p class="cur-price">
+              <span class="yuan">¥</span>
+              <span class="item-purch-price">1499</span>
+              <del>¥8766</del>
+            </p>
+          </div>
+          <div class="item-purch-r">
+            <div>
+              <i>135</i><br>
+              <span>人已买</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="list-item">
+        <div class="item-img">
+          <a href="javascript:;">
+            <img src="img/group4.jpg" alt="">
+          </a>
+        </div>
+        <div class="item-info">
+          <p><em>商城自营</em>苏泊尔电饭煲CFXB40HZ10-160</p>
+        </div>
+        <div class="item-purch">
+          <div class="item-purch-l">
+            <p class="cur-price">
+              <span class="yuan">¥</span>
+              <span class="item-purch-price">1499</span>
+              <del>¥2888</del>
+            </p>
+          </div>
+          <div class="item-purch-r">
+            <div>
+              <i>135</i><br>
+              <span>人已买</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="list-item">
+        <div class="item-img">
+          <a href="javascript:;">
+            <img src="img/group1.jpg" alt="">
+          </a>
+        </div>
+        <div class="item-info">
+          <p><em>商城自营</em>苏泊尔电饭煲CFXB40HZ10-160</p>
+        </div>
+        <div class="item-purch">
+          <div class="item-purch-l">
+            <p class="cur-price">
+              <span class="yuan">¥</span>
+              <span class="item-purch-price">1499</span>
+              <del>¥12345</del>
+            </p>
+          </div>
+          <div class="item-purch-r">
+            <div>
+              <i>165</i><br>
+              <span>人已买</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="list-item">
+        <div class="item-img">
+          <a href="javascript:;">
+            <img src="img/group2.jpg" alt="">
+          </a>
+        </div>
+        <div class="item-info">
+          <p><em>商城自营</em>苏泊尔电饭煲CFXB40HZ10-160</p>
+        </div>
+        <div class="item-purch">
+          <div class="item-purch-l">
+            <p class="cur-price">
+              <span class="yuan">¥</span>
+              <span class="item-purch-price">99</span>
+              <del>¥4323</del>
+            </p>
+          </div>
+          <div class="item-purch-r">
+            <div>
+              <i>13</i><br>
+              <span>人已买</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="list-item">
+        <div class="item-img">
+          <a href="javascript:;">
+            <img src="img/group4.jpg" alt="">
+          </a>
+        </div>
+        <div class="item-info">
+          <p><em>商城自营</em>苏泊尔电饭煲CFXB40HZ10-160</p>
+        </div>
+        <div class="item-purch">
+          <div class="item-purch-l">
+            <p class="cur-price">
+              <span class="yuan">¥</span>
+              <span class="item-purch-price">14995</span>
+              <del>¥1265</del>
+            </p>
+          </div>
+          <div class="item-purch-r">
+            <div>
+              <i>2135</i><br>
+              <span>人已买</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="list-item">
+        <div class="item-img">
+          <a href="javascript:;">
+            <img src="img/group3.jpg" alt="">
+          </a>
+        </div>
+        <div class="item-info">
+          <p>Apple iPad mini 2 平板电脑</p>
+        </div>
+        <div class="item-purch">
+          <div class="item-purch-l">
+            <p class="cur-price">
+              <span class="yuan">¥</span>
+              <span class="item-purch-price">11499</span>
+              <del>¥1888</del>
+            </p>
+          </div>
+          <div class="item-purch-r">
+            <div>
+              <i>1385</i><br>
+              <span>人已买</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="list-item">
+        <div class="item-img">
+          <a href="javascript:;">
+            <img src="img/group4.jpg" alt="">
+          </a>
+        </div>
+        <div class="item-info">
+          <p><em>商城自营</em>苏泊尔电饭煲CFXB40HZ10-160</p>
+        </div>
+        <div class="item-purch">
+          <div class="item-purch-l">
+            <p class="cur-price">
+              <span class="yuan">¥</span>
+              <span class="item-purch-price">2499</span>
+              <del>¥8215</del>
+            </p>
+          </div>
+          <div class="item-purch-r">
+            <div>
+              <i>1325</i><br>
+              <span>人已买</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="list-item">
+        <div class="item-img">
+          <a href="javascript:;">
+            <img src="img/group1.jpg" alt="">
+          </a>
+        </div>
+        <div class="item-info">
+          <p>美的冰箱BCD-216TMA</p>
+        </div>
+        <div class="item-purch">
+          <div class="item-purch-l">
+            <p class="cur-price">
+              <span class="yuan">¥</span>
+              <span class="item-purch-price">14</span>
+              <del>¥1658</del>
+            </p>
+          </div>
+          <div class="item-purch-r">
+            <div>
+              <i>135987</i><br>
+              <span>人已买</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="list-item">
+        <div class="item-img">
+          <a href="javascript:;">
+            <img src="img/group2.jpg" alt="">
+          </a>
+        </div>
+        <div class="item-info">
+          <p><em>商城自营</em>苏泊尔电饭煲CFXB40HZ10-160</p>
+        </div>
+        <div class="item-purch">
+          <div class="item-purch-l">
+            <p class="cur-price">
+              <span class="yuan">¥</span>
+              <span class="item-purch-price">149</span>
+              <del>¥8388</del>
+            </p>
+          </div>
+          <div class="item-purch-r">
+            <div>
+              <i>131</i><br>
+              <span>人已买</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="list-item">
+        <div class="item-img">
+          <a href="javascript:;">
+            <img src="img/group4.jpg" alt="">
+          </a>
+        </div>
+        <div class="item-info">
+          <p>海信彩电LED48EC520UA 48英寸</p>
+        </div>
+        <div class="item-purch">
+          <div class="item-purch-l">
+            <p class="cur-price">
+              <span class="yuan">¥</span>
+              <span class="item-purch-price">1499</span>
+              <del>¥888</del>
+            </p>
+          </div>
+          <div class="item-purch-r">
+            <div>
+              <i>15</i><br>
+              <span>人已买</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="list-item">
+        <div class="item-img">
+          <a href="javascript:;">
+            <img src="img/group3.jpg" alt="">
+          </a>
+        </div>
+        <div class="item-info">
+          <p>海尔彩电LE39B3300W 39</p>
+        </div>
+        <div class="item-purch">
+          <div class="item-purch-l">
+            <p class="cur-price">
+              <span class="yuan">¥</span>
+              <span class="item-purch-price">99</span>
+              <del>¥888</del>
+            </p>
+          </div>
+          <div class="item-purch-r">
+           <div>
+              <i>135</i><br>
+              <span>人已买</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="list-item">
+        <div class="item-img">
+          <a href="javascript:;">
+            <img src="img/group4.jpg" alt="">
+          </a>
+        </div>
+        <div class="item-info">
+          <p>囍人坊 夏凉被 双人空调被 单人学生宿舍磨毛棉夏被 儿童夏薄被子凉被芯</p>
+        </div>
+        <div class="item-purch">
+          <div class="item-purch-l">
+            <p class="cur-price">
+              <span class="yuan">¥</span>
+              <span class="item-purch-price">1499</span>
+              <del>¥888</del>
+            </p>
+          </div>
+          <div class="item-purch-r">
+            <div>
+              <i>13215</i><br>
+              <span>人已买</span>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      </div>
+      <p class="tips loading">正在加载...</p>
+      <!-- E 商品团购 -->
+    </div>
+    <!-- E 主体 -->
+
+
+    <div class='footer'>
+      <div class='wraper'>
+        <ul>
+          <li>
+            <dl>
+              <dt>帮助中心</dt>
+              <dd>
+                <i></i>
+                <a href='' title='如何注册成为会员'>如何注册成为会员</a>
+              </dd>
+              <dd>
+                <i></i>
+                <a href='' title='积分细则'> 积分细则</a>
+              </dd>
+              <dd>
+                <i></i>
+                <a href='' title='积分兑换说明'>积分兑换说明</a>
+              </dd>
+              <dd>
+                <i></i>
+                <a href='' title='如何搜索'>如何搜索</a>
+              </dd>
+              <dd>
+                <i></i>
+                <a href='' title='如何搜索'>忘记密码</a>
+              </dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>店主之家</dt>
+              <dd>
+                <i></i>
+                <a href='' title='如何管理店铺'>如何管理店铺</a>
+              </dd>
+              <dd>
+                <i></i>
+                <a href='' title='查看售出商品'>查看售出商品</a>
+              </dd>
+              <dd>
+                <i></i>
+                <a href='' title='如何发货'>如何发货</a>
+              </dd>
+              <dd>
+                <i></i>
+                <a href='' title='商城商品推荐'>商城商品推荐</a>
+              </dd>
+              <dd>
+                <i></i>
+                <a href='' title='如何申请开店'>如何申请开店</a>
+              </dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>支付方式</dt>
+              <dd>
+                <i></i>
+                <a href='' title='分期付款'>分期付款</a>
+              </dd>
+              <dd>
+                <i></i>
+                <a href='' title='邮局汇款'>邮局汇款</a>
+              </dd>
+              <dd>
+                <i></i>
+                <a href='' title='公司转账'>公司转账</a>
+              </dd>
+              <dd>
+                <i></i>
+                <a href='' title='如何注册支付宝'>如何注册支付宝</a>
+              </dd>
+              <dd>
+                <i></i>
+                <a href='' title='在线支付'>在线支付</a>
+              </dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>售后服务</dt>
+              <dd>
+                <i></i>
+                <a href='' title='联系卖家'>联系卖家</a>
+              </dd>
+              <dd>
+                <i></i>
+                <a href='' title='退换货政策'>退换货政策</a>
+              </dd>
+              <dd>
+                <i></i>
+                <a href='' title='退换货流程'>退换货流程</a>
+              </dd>
+              <dd>
+                <i></i>
+                <a href='' title='返修/退换货'>返修/退换货</a>
+              </dd>
+              <dd>
+                <i></i>
+                <a href='' title='退款申请 '>退款申请</a>
+              </dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>客服中心</dt>
+              <dd>
+                <i></i>
+                <a href='' title='会员修改密码'>会员修改密码</a>
+              </dd>
+              <dd>
+                <i></i>
+                <a href='' title='会员修改个人资料'>会员修改个人资料</a>
+              </dd>
+              <dd>
+                <i></i>
+                <a href='' title='商品发布'>商品发布</a>
+              </dd>
+              <dd>
+                <i></i>
+                <a href='' title='修改收货地址'>修改收货地址</a>
+              </dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>关于我们</dt>
+              <dd>
+                <i></i>
+                <a href='' title='合作及洽谈'>合作及洽谈</a>
+              </dd>
+              <dd>
+                <i></i>
+                <a href='' title='招聘英才'>招聘英才</a>
+              </dd>
+              <dd>
+                <i></i>
+                <a href='' title='联系我们'>联系我们</a>
+              </dd>
+              <dd>
+                <i></i>
+                <a href='' title='关于ShopNC'>关于JavaMalls</a>
+              </dd>
+            </dl>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class='wraper' id='footer'>
+      <p>
+        <a href=''>首页</a>
+            |
+        <a href=''>招聘英才</a>
+            |
+        <a href=''>合作及洽谈</a>
+            |
+        <a href=''>联系我们</a>
+            |
+        <a href=''>关于JavaMalls</a>
+      </p>
+
+          Copyright 2007-2015 JavaMalls Inc.,All rights reserved.
+        <br>
+
+          Powered by 
+          <span class='vol'>
+            <font class='b'>Java</font>
+            <font class='o'>Malls</font>
+          </span>
+    </div>
+    <script type="text/javascript" src='./js/list.js'></script>
+    <script src="./js/template-native.js"></script>
+    <script>
+      $(function(){
+
+        // 点击团购商品分类菜单改变当前样式
+        $(".item .item-a").on("click",function(){
+          // console.log($(this).addClass("item-a-cur").parent(".item"));
+          $(this).addClass("item-a-cur").parent("p").siblings("p").find(".item-a").removeClass("item-a-cur");
+          $(".div-h3 .item-a").removeClass("item-a-cur");
+        });
+
+        $(".div-h3 .item-a").on("click",function(){
+          // console.log($(this).addClass("item-a-cur").parent(".itemnav-h3"));
+          $(this).addClass("item-a-cur").parent(".itemnav-h3").siblings(".itemnav-h3").find(".item-a").removeClass("item-a-cur");
+          $(".item .item-a").removeClass("item-a-cur");
+        });
+        
+        // 团购商品边框改变颜色
+        $(".list-item").on("mouseenter",function(){
+          $(this).css({"border-color":"#EC4C4C"}).siblings().css({"border-color":"#e0e0e0"});
+        });
+
+
+         // 封装请求数据
+        function getData(page) {
+          // console.log(page);
+        // 请求数据
+        $.ajax({
+          url: './data.json',
+          type: 'post',
+          data: {page: page},
+          dataType:'json',
+          beforeSend: function () {
+            $('p.tips').text('正在加载...').addClass('loading');
+          },
+          success: function (data) {
+            
+            // 只要引入了template-native.js
+            var html = template('tpl3', data);
+            // 添加元素
+            var currenthtml = $('.group-purchase').html();
+            $('.group-purchase').html(currenthtml+html);
+            // 瀑布流布局
+            //$('.group-purchase').waterFall();
+
+            // 没有更多数据了
+            if(data.items.length == 0) {
+               $('p.tips').hide();
+             }
+
+            // 把页码放到按钮上面
+            //console.log(page);
+            $('p.tips').attr('data-page', Number(page)+1);
+          }
+        });
+        }
+
+        // 滚动定位团购商品
+        $(window).scroll(function(){
+          var st = parseInt($(".top-head").css("height"));
+          //console.log(st);
+          if($(window).scrollTop()>st){
+            $(".group-cate-flxed").css({"position":"fixed","right":"5%"});
+          }else {
+            $(".group-cate-flxed").css({"position":"absolute","right":"0"});
+          }
+
+          // 获取商品
+          var offsetTop = $('.group-purchase').offset().top;
+          var height = $('.group-purchase').height();
+          var scrollTop = $(this).scrollTop();
+          var winHeight = $(this).height();
+
+          var offset = offsetTop + height - scrollTop - winHeight;
+
+          if(offset <= 100) {
+            var currentPage =  $("p.tips").attr('data-page');
+            var nextpage = typeof(currentPage)== "undefined"?1:currentPage;
+            getData(nextpage);
+          }
+
+        });
+
+      });
+
+    </script>
+    <!-- 模板 -->
+    <script type="text/template" id="tpl3">
+      <% for(var i=0; i<items.length; i++) { %>
+        <div class="list-item">
+          <div class="item-img">
+            <a href="javascript:;">
+              <img src="<%= items[i].path %>">
+            </a>
+          </div>
+          <div class="item-info">
+            <p><%= items[i].tit %></p>
+          </div>
+          <div class="item-purch">
+            <div class="item-purch-l">
+              <p class="cur-price">
+                <span class="yuan">¥</span>
+                <span class="item-purch-price"><%= items[i].xj%></span>
+                <del>¥<%= items[i].yj%></del>
+              </p>
+            </div>
+            <div class="item-purch-r">
+              <div>
+                <i><%= items[i].num%></i><br>
+                <span>人已买</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <% } %>
+    </script>
+  </body>
+</html>
+ 
